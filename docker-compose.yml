@@ -15,9 +15,6 @@ services:
     environment: 
       - LDAP_ORGANISATION=ramhlocal
       - LDAP_DOMAIN=ramhlocal.com
-      - LDAP_ADMIN_USERNAME=admin
-      - LDAP_ADMIN_PASSWORD=admin_pass
-      - LDAP_CONFIG_PASSWORD=config_pass
       - LDAP_OPENLDAP_GID=0
       - LDAP_OPENLDAP_UID=0
       - "LDAP_BASE_DN=dc=ramhlocal,dc=com"
@@ -25,8 +22,6 @@ services:
       - LDAP_TLS_KEY_FILENAME=server.key
       - LDAP_TLS_CA_CRT_FILENAME=ramhlocal.com.ca.crt
       - LDAP_READONLY_USER=true
-      - LDAP_READONLY_USER_USERNAME=user-ro
-      - LDAP_READONLY_USER_PASSWORD=ro_pass
     networks:
       - openldap
   

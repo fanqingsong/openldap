@@ -1,5 +1,5 @@
 # AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
-# CRC32 fd609392
+# CRC32 7d2cfa1f
 dn: olcDatabase={1}mdb
 objectClass: olcDatabaseConfig
 objectClass: olcMdbConfig
@@ -12,7 +12,6 @@ olcAccess: {1}to attrs=shadowLastChange by self write by * read
 olcAccess: {2}to * by * read
 olcLastMod: TRUE
 olcRootDN: cn=admin,dc=ramhlocal,dc=com
-olcRootPW:: e1NTSEF9SFdOZ053V0pUb0tQeGsrMjNialV2M0dReDNlb1hQUVQ=
 olcDbCheckpoint: 512 30
 olcDbIndex: objectClass eq
 olcDbIndex: cn,uid eq
@@ -23,6 +22,7 @@ structuralObjectClass: olcMdbConfig
 entryUUID: a58e71a2-b29a-103d-97f3-f59c6431c53c
 creatorsName: cn=admin,cn=config
 createTimestamp: 20230709115112Z
-entryCSN: 20230709115112.663348Z#000000#000#000000
-modifiersName: cn=admin,cn=config
-modifyTimestamp: 20230709115112Z
+olcRootPW:: e1NTSEF9NUNhUXA1QWdNV3IxWXdnQndJLzRyUndRYjhjTHhwbXc=
+entryCSN: 20230709154310.535195Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20230709154310Z
